@@ -13,7 +13,6 @@
     $data = json_decode($result, true);
     curl_close($ch);
     var_dump($data);
-
 ?>
 
 <main>
